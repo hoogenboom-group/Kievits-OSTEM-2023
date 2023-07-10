@@ -1,0 +1,23 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+*$py.class
+
+# pyenv
+.python-version
+
+# data
+data/
+
+# Any images
+Notebooks/*.png
+Notebooks/Images/**
+
+
+
+
+
+

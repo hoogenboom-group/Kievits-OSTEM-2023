@@ -1,0 +1,22 @@
+name: ostem-demo
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - jupyterlab
+  - ipython
+  - scipy
+  - scikit-image
+  - beautifulsoup4
+  - altair
+  - pip
+  - numpy
+  - git
+  - tifffile
+  - seaborn
+  - pip:
+    - tqdm
+    - lxml
+    - ipywidgets
+    - ipympl
