@@ -1,5 +1,5 @@
-# Single beam optical STEM demonstration 
-Arent Kievits, 05-05-2021
+# Optical STEM detection for scanning electron microscopy
+Arent J. Kievits, 13-07-2023
 
 This repository contains the code for analysis of the experimental data from the publication titled 'Optical STEM detection for scanning electron microscopy'. The results of the publication can be verified and visualized using Jupyter Notebooks. 
 
@@ -35,13 +35,13 @@ To start the environment, use the command line to get to the `git` folder and ty
 ### /data
 Folder that contains the experimental data
 
-*'1_Optimization-OSTEM'' -- OSTEM images acquired at different landing energies (LEs), to find the optimal landing energy (Figure 2). 5 images per landing energy.
+*`1_Optimization-OSTEM` -- OSTEM images acquired at different landing energies (LEs), to find the optimal landing energy (Figure 2). 5 images per landing energy.
 
 | LE (keV) | Dwell (ns) | Pixel size (nm/px) |
 |:--------:|:----------:|:------------------:|
 | 2.5<br>3.0<br>3.5<br>4.0<br>4.5<br>5.0<br>5.5<br>6.0<br>6.5<br>7.0<br>7.5<br>8.0| 0<br>100<br>200<br>500<br>1000<br>1500<br>2000<br>3000 | 100<br>200<br>300<br>500<br>1000<br>3000<br>5000<br>10000 | 1 |
 
-*'2_Qualitative-comparison' -- Backscattered electron images (BSD) and optical scanning transmission electron microscopy images of rat pancreas and zebrafish larval tissue.
+*`2_Qualitative-comparison` -- Backscattered electron images (BSD) and optical scanning transmission electron microscopy images of rat pancreas and zebrafish larval tissue.
 
 | LE (keV) | Dwell (ns) | Pixel size (nm/px) |
 |:--------:|:----------:|:------------------:|
@@ -71,8 +71,8 @@ Contains the code used in the notebooks
 ### /notebooks
 Contains the notebooks used to analyze the data and plot the results
 
-*'1_Optimization-OSTEM'' -- Performs the landing energy optimization by calculating the SNR and plots the SNR vs landing energy and histogram of selected images (Figure 2)
-*'2_Qualitative-comparison' -- Visualizes backscattered electron images (BSD) and optical scanning transmission electron microscopy images of the same biological tissues (Figure 3). 
+*`1_Optimization-OSTEM` -- Performs the landing energy optimization by calculating the SNR and plots the SNR vs landing energy and histogram of selected images (Figure 2)
+*`2_Qualitative-comparison` -- Visualizes backscattered electron images (BSD) and optical scanning transmission electron microscopy images of the same biological tissues (Figure 3). 
 *`3_SNR-comparison-detectors` -- Computes SNR for all detection methods and plots comparison (Figure 4, Figure S3).
 *`4_Image-resolution-detectors` -- Computes histogram of edgewidths from FEI Image (Figure 5).
 *`5_Current-SNR-relation` -- Computes SNR for all images and plots SNR vs dwell time and beam current (Figure 6).
