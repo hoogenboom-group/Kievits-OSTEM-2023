@@ -35,31 +35,31 @@ To start the environment, use the command line to get to the `git` folder and ty
 ### /data
 Folder that contains the experimental data
 
-*`1_Optimization-OSTEM` -- OSTEM images acquired at different landing energies (LEs), to find the optimal landing energy (Figure 2). 5 images per landing energy.
+* `1_Optimization-OSTEM` -- OSTEM images acquired at different landing energies (LEs), to find the optimal landing energy (Figure 2). 5 images per landing energy.
 
 | LE (keV) | Dwell (ns) | Pixel size (nm/px) |
 |:--------:|:----------:|:------------------:|
 | 2.5<br>3.0<br>3.5<br>4.0<br>4.5<br>5.0<br>5.5<br>6.0<br>6.5<br>7.0<br>7.5<br>8.0| 0<br>100<br>200<br>500<br>1000<br>1500<br>2000<br>3000 | 100<br>200<br>300<br>500<br>1000<br>3000<br>5000<br>10000 | 1 |
 
-*`2_Qualitative-comparison` -- Backscattered electron images (BSD) and optical scanning transmission electron microscopy images of rat pancreas and zebrafish larval tissue.
+* `2_Qualitative-comparison` -- Backscattered electron images (BSD) and optical scanning transmission electron microscopy images of rat pancreas and zebrafish larval tissue.
 
 | LE (keV) | Dwell (ns) | Pixel size (nm/px) |
 |:--------:|:----------:|:------------------:|
 | 1.5<br>2.0<br>4.0| 5000<br>10000 | 4 |
 
-*`3_SNR-comparison-detectors` -- Backscattered electron images acquired with the CBS detector (BSD), Secondary electron images acquired with the through-the-lens or Everhart-Thornley detector (SE), backscatter electron images acquired with stage bias (BSE-SB) and optical scanning transmission electron microscopy images acquired with the photon detector (OSTEM). 5 images per setting. Both field-free (HR) and immersion modes (UHR).
+* `3_SNR-comparison-detectors` -- Backscattered electron images acquired with the CBS detector (BSD), Secondary electron images acquired with the through-the-lens or Everhart-Thornley detector (SE), backscatter electron images acquired with stage bias (BSE-SB) and optical scanning transmission electron microscopy images acquired with the photon detector (OSTEM). 5 images per setting. Both field-free (HR) and immersion modes (UHR).
 
 | Detection mode | LE (keV) | Dwell (ns) | Pixel size (nm/px) |
 |:--------------:|:--------:|:----------:|:------------------:|
 | BSD<br>BSD-SB<br>SE<br>OSTEM<br>ADF-STEM | 1.5 (BSD, BSD-SB, SE)<br>4 (OSTEM)<br>25 (ADF-STEM)| 100<br>200<br>300<br>500<br>1000<br>3000<br>5000<br>10000 | 1 |
 
-*`4_Image-resolution-detectors` -- Backscattered electron images acquired with the CBS detector (BSD), Secondary electron images acquired with the through-the-lens detector (SE) and optical scanning transmission electron microscopy images acquired with the photon detector (OSTEM). Immersion mode (UHR).
+* `4_Image-resolution-detectors` -- Backscattered electron images acquired with the CBS detector (BSD), Secondary electron images acquired with the through-the-lens detector (SE) and optical scanning transmission electron microscopy images acquired with the photon detector (OSTEM). Immersion mode (UHR).
 
 | Detection mode | LE (keV) | Dwell (ns) | Pixel size (nm/px) |
 |:--------------:|:-------:|:----------:|:------------------:|
 | BSD<br>SE<br>OSTEM<br>ADF-STEM | 1.5<br>4 (BSD, SE)<br>4 (OSTEM)<br>25 (ADF-STEM) | 10000<br>20000 (BSD, SE, OSTEM)<br>3000 (ADF-STEM) | 0.5 (BSD, SE, OSTEM)<br>0.2 (ADF-STEM) |
 
-*`5_Current-SNR-relation` -- Optical scanning transmission electron microscopy images acquired with increasing dwell times and increasing currents
+* `5_Current-SNR-relation` -- Optical scanning transmission electron microscopy images acquired with increasing dwell times and increasing currents
 
 | LE (keV) | Current (nA) | Dwell (ns) | Pixel size (nm/px) |
 |:--------:|:------------:|:----------:|:------------------:|
@@ -71,9 +71,9 @@ Contains the code used in the notebooks
 ### /notebooks
 Contains the notebooks used to analyze the data and plot the results
 
-*`1_Optimization-OSTEM` -- Performs the landing energy optimization by calculating the SNR and plots the SNR vs landing energy and histogram of selected images (Figure 2)
-*`2_Qualitative-comparison` -- Visualizes backscattered electron images (BSD) and optical scanning transmission electron microscopy images of the same biological tissues (Figure 3). 
-*`3_SNR-comparison-detectors` -- Computes SNR for all detection methods and plots comparison (Figure 4, Figure S3).
-*`4_Image-resolution-detectors` -- Computes histogram of edgewidths from FEI Image (Figure 5).
-*`5_Current-SNR-relation` -- Computes SNR for all images and plots SNR vs dwell time and beam current (Figure 6).
-*`A1_SSNR_streaking_analysis.ipynb` -- Computes SNR with and without streaking effect and shows streaking effect in Fourier Transform (Figure S1 and S2).
+* `1_Optimization-OSTEM` -- Performs the landing energy optimization by calculating the SNR and plots the SNR vs landing energy and histogram of selected images (Figure 2)
+* `2_Qualitative-comparison` -- Visualizes backscattered electron images (BSD) and optical scanning transmission electron microscopy images of the same biological tissues (Figure 3). 
+* `3_SNR-comparison-detectors` -- Computes SNR for all detection methods and plots comparison (Figure 4, Figure S3).
+* `4_Image-resolution-detectors` -- Computes histogram of edgewidths from FEI Image (Figure 5).
+* `5_Current-SNR-relation` -- Computes SNR for all images and plots SNR vs dwell time and beam current (Figure 6).
+* `A1_SSNR_streaking_analysis.ipynb` -- Computes SNR with and without streaking effect and shows streaking effect in Fourier Transform (Figure S1 and S2).
