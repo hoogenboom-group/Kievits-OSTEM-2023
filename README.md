@@ -1,5 +1,5 @@
 # Single beam optical STEM demonstration 
-Arent Kievits, 05-05-2021
+Arent Kievits, 13-10-2023
 
 This repository contains the code for analysis of the experimental data from the publication titled 'Optical STEM detection for scanning electron microscopy'. The results of the publication can be verified and visualized using Jupyter Notebooks. 
 
@@ -71,9 +71,10 @@ Contains the code used in the notebooks
 ### /notebooks
 Contains the notebooks used to analyze the data and plot the results
 
-*'1_Optimization-OSTEM'' -- Performs the landing energy optimization by calculating the SNR and plots the SNR vs landing energy and histogram of selected images (Figure 2)
-*'2_Qualitative-comparison' -- Visualizes backscattered electron images (BSD) and optical scanning transmission electron microscopy images of the same biological tissues (Figure 3). 
-*`3_SNR-comparison-detectors` -- Computes SNR for all detection methods and plots comparison (Figure 4, Figure S3).
+*`1_Optimization-OSTEM` -- Performs the landing energy optimization by calculating the SNR and plots the SNR vs landing energy and histogram of selected images (Figure 2)
+*`2_Qualitative-comparison` -- Visualizes backscattered electron images (BSD) and optical scanning transmission electron microscopy images of the same biological tissues (Figure 3). 
+*`3_SNR-comparison-detectors` -- Computes SNR for all detection methods and plots comparison (Figure 4, Figure S4).
 *`4_Image-resolution-detectors` -- Computes histogram of edgewidths from FEI Image (Figure 5).
 *`5_Current-SNR-relation` -- Computes SNR for all images and plots SNR vs dwell time and beam current (Figure 6).
-*`A1_SSNR_streaking_analysis.ipynb` -- Computes SNR with and without streaking effect and shows streaking effect in Fourier Transform (Figure S1 and S2).
+*`A1_SSNR_streaking_analysis.ipynb` -- Computes SNR with and without streaking effect and shows streaking effect in Fourier Transform (Figures S2 and S3).
+*`A2_background_texture_characterization.ipynb` -- Plots images of substate surface without tissue and calculated statistics of the intensity profile
