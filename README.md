@@ -2,6 +2,7 @@
 Arent J. Kievits, 13-07-2023
 
 This repository contains the code for analysis of the experimental data from the publication titled 'Optical STEM detection for scanning electron microscopy'. The results of the publication can be verified and visualized using Jupyter Notebooks. 
+The data can be found in the 4TU.Research repository 10.4121/9c98aee1-608e-4c71-8b89-dcb1e8eb3e5e
 
 ### Installation
 
@@ -33,7 +34,7 @@ pip install git+git://github.com/arentkievits/Kievits-OSTEM-2023
 To start the environment, use the command line to get to the `git` folder and type `jupyter lab` or search `jupyter notebook` via the Windows/Mac programs tab and go to the respective repository location. The notebook can be executed at once by hitting the `play` button or by selecting `Run` > 'Run All Cells'. 
 
 ### /data
-Folder that contains the experimental data
+Directory that contains the experimental data. Replace with data from Repository.
 
 * `1_Optimization-OSTEM` -- OSTEM images acquired at different landing energies (LEs), to find the optimal landing energy (Figure 2). 5 images per landing energy.
 
