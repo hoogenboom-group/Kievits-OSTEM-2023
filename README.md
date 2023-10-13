@@ -39,7 +39,7 @@ Folder that contains the experimental data
 
 | LE (keV) | Dwell (ns) | Pixel size (nm/px) |
 |:--------:|:----------:|:------------------:|
-| 2.5<br>3.0<br>3.5<br>4.0<br>4.5<br>5.0<br>5.5<br>6.0<br>6.5<br>7.0<br>7.5<br>8.0| 0<br>100<br>200<br>500<br>1000<br>1500<br>2000<br>3000 | 100<br>200<br>300<br>500<br>1000<br>3000<br>5000<br>10000 | 1 |
+| 2.5<br>3.0<br>3.5<br>4.0<br>4.5<br>5.0<br>5.5<br>6.0<br>6.5<br>7.0<br>7.5<br>8.0| 0<br>100<br>200<br>500<br>1000<br>1500<br>2000<br>3000 | 1 |
 
 * `2_Qualitative-comparison` -- Backscattered electron images (BSD) and optical scanning transmission electron microscopy images of rat pancreas and zebrafish larval tissue.
 
