@@ -2,7 +2,7 @@
 Arent J. Kievits, 13-07-2023
 
 This repository contains the code for analysis of the experimental data from the publication titled 'Optical STEM detection for scanning electron microscopy'. The results of the publication can be verified and visualized using Jupyter Notebooks. 
-The data can be found in the 4TU.Research repository 10.4121/9c98aee1-608e-4c71-8b89-dcb1e8eb3e5e
+The data can be found in the 4TU.Research repository: [10.4121/9c98aee1-608e-4c71-8b89-dcb1e8eb3e5e](https://doi.org/10.4121/9c98aee1-608e-4c71-8b89-dcb1e8eb3e5e)
 
 ### Installation
 
