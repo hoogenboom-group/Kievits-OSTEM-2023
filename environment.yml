@@ -1,4 +1,4 @@
-name: ostem-demo
+name: ostem
 channels:
   - conda-forge
   - bioconda
